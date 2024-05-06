@@ -1,0 +1,362 @@
+@media (max-width: 1392px) {
+    section.header .nationalSkills h2 {
+        margin-left: 62px;
+        font-size: 27px;
+        line-height: 48px;
+    }
+
+    section.header .nationalSkills>img {
+        margin-left: 62px;
+        margin-bottom: 10px;
+        width: 43px;
+    }
+
+    section.header .nationalSkills button {
+        margin-top: 14px;
+        padding-left: 62px;
+        font-size: 21px;
+    }
+
+    section.header .nationalSkills button img {
+        width: 38px;
+    }
+
+    section.header .videoContainer .title strong {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 1075px) {
+    section.header {
+        flex-direction: column;
+    }
+
+    section.header .nationalSkills {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 40px;
+    }
+
+    section.header .nationalSkills>img {
+        display: none;
+    }
+
+    section.header .nationalSkills h2 {
+        margin: 0;
+    }
+
+    section.header .nationalSkills h2 br {
+        display: none;
+    }
+
+    section.header .nationalSkills::before {
+        display: none;
+    }
+
+    section.header .nationalSkills button {
+        clip-path: none;
+        border-radius: 20px;
+        padding: 13px 35px;
+        margin-top: 0;
+    }
+
+    section.header .nationalSkills button img {
+        margin-right: 20px;
+    }
+
+    section.header .videoContainer {
+        width: 100%;
+    }
+
+    section.header .videoContainer .title {
+        bottom: 30px;
+        padding: 0 40px;
+    }
+
+    section.header .videoContainer .logo {
+        left: 40px;
+    }
+
+    section.ifsc {
+        padding: 0;
+    }
+
+    section.ifsc img {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 0;
+    }
+
+    section.ifsc::before {
+        display: none;
+    }
+
+    section.main::before {
+        content: "";
+        width: 404px;
+        height: 408px;
+        background-image: url("../images/pattern.png");
+        background-size: 100%;
+        position: absolute;
+        background-position: 0;
+        z-index: -1;
+        left: -94px;
+        top: -46px;
+        transform: rotate(186deg);
+    }
+}
+
+@media (max-width: 850px) {
+    section.footer .contact {
+        padding: 0 20px;
+    }
+
+    section.footer .contact blockquote p {
+        font-size: 16px;
+        line-height: 31px;
+    }
+
+    section.footer .contact blockquote b {
+        font-size: 13px;
+    }
+
+    section.footer .copyRight {
+        font-size: 10px;
+    }
+
+    section.footer .contact ul li a {
+        font-size: 14px;
+    }
+
+    section.footer .contact ul li a img {
+        width: 26px;
+        margin-right: 12px;
+    }
+
+    section.ifsc img {
+        height: 250px;
+        object-fit: cover;
+        object-position: left;
+    }
+}
+
+@media (max-width: 803px) {
+    section.header .nationalSkills h2 {
+        font-size: 21px;
+    }
+
+    section.header .nationalSkills button {
+        font-size: 18px;
+        padding: 13px 25px;
+    }
+
+    section.header .nationalSkills button img {
+        width: 35px;
+        margin-right: 15px;
+    }
+
+    section.header .videoContainer .title strong {
+        font-size: 35px;
+    }
+
+    section.header .videoContainer .title img {
+        width: 45px;
+    }
+
+    section.header .videoContainer .logo img {
+        width: 96px;
+    }
+
+    section.header .videoContainer .logo h1 {
+        font-size: 16px;
+    }
+
+    section.main .mainContainer {
+        width: 1254px;
+    }
+
+    section.main .images img:nth-child(2) {
+        height: 498px;
+        width: 793px;
+    }
+
+    section.main::before, section.main::after {
+        width: 254px;
+        height: 258px;
+    }
+
+    section.main .mainContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.main .moments {
+        position: relative;
+        left: auto;
+        top: auto;
+        align-items: center;
+        font-size: 35px;
+        line-height: 37px;
+    }
+
+    section.main img.nice {
+        width: 46px;
+        top: 2%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    section.main .moments i {
+        font-size: 29px;
+    }
+
+    section.main .challenge {
+        position: relative;
+        right: auto;
+        bottom: auto;
+    }
+
+    section.main .challenge div {
+        font-size: 25px;
+        line-height: 37px;
+    }
+
+    section.main .challenge div b {
+        font-size: 37px;
+    }
+
+    section.main .challenge img {
+        width: 36px;
+    }
+
+    section.main .star1 {
+        width: 45px;
+        height: 45px;
+        top: 22%;
+    }
+
+    section.main .star2 {
+        width: 33px;
+        height: 33px;
+        top: 13%;
+        left: 37%;
+    }
+
+    section.main .onMove {
+        width: 90px;
+        height: 90px;
+        right: 32%;
+        top: 16%;
+    }
+
+    section.main .onMove::before {
+        background-size: 29px;
+    }
+}
+
+@media (max-width: 649px) {
+    section.header .nationalSkills h2 {
+        width: 60%;
+    }
+
+    section.footer .topFooter {
+        font-size: 28px;
+        padding: 40px 0;
+    }
+
+    section.footer::before {
+        width: 60px;
+        height: 65px;
+    }
+}
+
+@media (max-width: 540px) {
+    section.header .nationalSkills h2 {
+        font-size: 19px;
+        line-height: 27px;
+    }
+
+    section.header .videoContainer .logo {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    section.header .videoContainer .logo img {
+        width: 90px;
+    }
+
+    section.header .videoContainer .logo h1 {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    section.header .videoContainer video {
+        height: 470px;
+        object-fit: cover;
+    }
+
+    section.header .videoContainer .title strong {
+        font-size: 23px;
+    }
+
+    section.header .videoContainer .title img {
+        width: 35px;
+    }
+
+    section.header .nationalSkills button {
+        font-size: 14px;
+        padding: 12px 22px;
+        border-radius: 15px;
+    }
+
+    section.header .nationalSkills button img {
+        width: 28px;
+        margin-right: 11px;
+    }
+
+    section.header .nationalSkills h2 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    section.header .videoPlayer #pause {
+        width: 35px;
+    }
+
+    section.header .videoContainer .title {
+        padding: 0 30px;
+    }
+
+    section.header .nationalSkills {
+        padding: 25px 30px;
+    }
+
+    section.footer .topFooter {
+        font-size: 22px;
+        padding: 40px 0 35px 0;
+    }
+
+    section.footer::before {
+        width: 53px;
+        height: 59px;
+        top: -33px;
+        background-size: cover;
+    }
+
+    section.footer .contact {
+        flex-direction: column;
+    }
+
+    section.footer .contact ul {
+        order: 1;
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    section.footer .copyRight {
+        text-align: center;
+    }
+}

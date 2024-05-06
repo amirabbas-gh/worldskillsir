@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="46" viewBox="0 0 38 46">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.35" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="0.658" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_8193" data-name="Rectangle 8193" width="19" height="46" transform="translate(0.304 0.441)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_8194" data-name="Rectangle 8194" width="19" height="46" transform="translate(0 0.441)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient-2)"/>
+    </clipPath>
+  </defs>
+  <g id="icon_play" transform="translate(-948.304 -4788.441)">
+    <g id="Groupe_de_masques_21448" data-name="Groupe de masques 21448" transform="translate(948 4788)" clip-path="url(#clip-path)">
+      <path id="play" d="M19.508,47.185h0L0,35.389V11.8L19.508,0,39.014,11.8V35.389l-19.505,11.8Zm-4.6-30.4h0L14.85,30.568l11.938-6.946L14.912,16.783Z" transform="translate(-0.203 -0.152)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Groupe_de_masques_21449" data-name="Groupe de masques 21449" transform="translate(967.304 4788)" clip-path="url(#clip-path-2)">
+      <path id="play-2" data-name="play" d="M19.508,47.185h0L0,35.389V11.8L19.508,0,39.014,11.8V35.389l-19.505,11.8Zm-4.6-30.4h0L14.85,30.568l11.938-6.946L14.912,16.783Z" transform="translate(-19.507 -0.152)" opacity="0.998" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>
