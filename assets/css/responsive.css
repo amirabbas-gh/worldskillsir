@@ -254,6 +254,24 @@
     section.main .onMove::before {
         background-size: 29px;
     }
+
+    div.clock {
+        width: 528px;
+        height: 82px;
+    }
+
+    .expload {
+        width: 56px;
+        height: 82px;
+    }
+
+    section.lyon2024 strong {
+        font-size: 20px;
+    }
+
+    section.lyon2024 {
+        height: 270px;
+    }
 }
 
 @media (max-width: 649px) {
@@ -269,6 +287,30 @@
     section.footer::before {
         width: 60px;
         height: 65px;
+    }
+}
+
+@media (max-width: 580px) {
+    .expload {
+        width: 35.5px;
+        height: 55px;
+    }
+
+    div.clock {
+        width: 364px;
+        height: 55px;
+    }
+
+    .clock span, .expload {
+        grid-gap: 2px;
+    }
+
+    section.lyon2024 strong {
+        font-size: 17px;
+    }
+
+    section.lyon2024 {
+        height: 209px;
     }
 }
 
@@ -358,5 +400,26 @@
 
     section.footer .copyRight {
         text-align: center;
+    }
+}
+
+@media(max-width: 400px) {
+    section.lyon2024 strong {
+        font-size: 14px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    div.clock {
+        width: 302px;
+        height: 43px;
+    }
+
+    .clock span, .expload {
+        grid-gap: 1px;
+    }
+
+    section.lyon2024 {
+        height: 180px;
     }
 }
