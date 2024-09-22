@@ -15,7 +15,8 @@ body {
     font-family: Acorn;
     font-style: normal;
     font-weight: 300;
-    src: url(../fonts/Acorn-Light.woff2) format("woff2") url(../fonts/Acorn-Light.ttf) format("ttf");
+    src: url(../fonts/Acorn-Light.woff2) format("woff2"),
+     url(../fonts/Acorn-Light.ttf) format("ttf");
     font-display: swap;
 }
 
@@ -23,7 +24,8 @@ body {
     font-family: Acorn;
     font-style: normal;
     font-weight: 400;
-    src: url(../fonts/Acorn-Regular.woff2) format("woff2") url(../fonts/Acorn-Regular.woff) format("woff") url(../fonts/Acorn-Regular.ttf) format("ttf");
+    src: url(../fonts/Acorn-Regular.woff2) format("woff2"),
+     url(../fonts/Acorn-Regular.woff) format("woff") url(../fonts/Acorn-Regular.ttf) format("ttf");
     font-display: swap;
 }
 
@@ -31,7 +33,8 @@ body {
     font-family: Acorn;
     font-style: normal;
     font-weight: bold;
-    src: url(../fonts/Acorn-Bold.ttf) format("ttf") url(../fonts/Acorn-Bold.woff) format("woff") url(../fonts/Acorn-Bold.woff2) format("woff2");
+    src: url(../fonts/Acorn-Bold.ttf) format("ttf"),
+     url(../fonts/Acorn-Bold.woff) format("woff") url(../fonts/Acorn-Bold.woff2) format("woff2");
     font-display: swap;
 }
 
@@ -75,6 +78,9 @@ section.header .videoContainer .logo {
     top: 40px;
     display: flex;
     align-items: center;
+    > img {
+        width: 100px;
+    }
 }
 
 section.header .videoContainer .title {
@@ -322,9 +328,9 @@ section.main .images img:nth-child(2) {
 }
 
 section.main .images img:nth-child(3) {
-    width: 370px;
-    height: 385px;
-    object-position: right;
+    width: 368px;
+    height: 335px;
+    object-position: -78px;
 }
 
 section.main .moments {
