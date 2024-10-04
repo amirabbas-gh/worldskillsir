@@ -423,3 +423,66 @@
         height: 180px;
     }
 }
+
+@media (max-width: 1100px) {
+    .result {
+        > .container {
+            > .competitors {
+                grid-template-columns: repeat(5, 1fr);
+            }
+        }
+    }
+}
+
+@media (max-width: 880px) {
+    .result {
+        > .container {
+            > .competitors {
+                grid-template-columns: repeat(3, 1fr);
+                > .competitor {
+                    > .name {
+                        > strong {
+                            font-size: 15px;
+                            line-height: 18px;
+                        }
+                        > span {
+                            font-size: 11px;
+                        }
+                        > b {
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .result {
+        > .container {
+            > .title {
+                > strong {
+                    font-size: 17px;
+                }
+            }
+            > .competitors {
+                grid-template-columns: repeat(2, 1fr);
+                > .competitor {
+                    > .name {
+                        > strong {
+                            font-size: 13px;
+                            line-height: 15px;
+                        }
+                        > span {
+                            font-size: 10px;
+                        }
+                        > b {
+                            font-size: 9px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
