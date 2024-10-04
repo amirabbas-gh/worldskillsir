@@ -471,14 +471,14 @@
                 > .competitor {
                     > .name {
                         > strong {
-                            font-size: 13px;
+                            font-size: 16px;
                             line-height: 15px;
                         }
                         > span {
-                            font-size: 10px;
+                            font-size: 15px;
                         }
                         > b {
-                            font-size: 9px;
+                            font-size: 13px;
                         }
                     }
                 }
