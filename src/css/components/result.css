@@ -1,0 +1,106 @@
+/**
+ * Result Section Component Styles
+ */
+
+.result {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: var(--spacing-xl);
+}
+
+.result .container {
+  width: 1100px;
+  display: flex;
+  padding: 0 var(--spacing-lg);
+  flex-direction: column;
+}
+
+.result .container .title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.result .container .title img {
+  width: auto;
+  height: auto;
+}
+
+.result .container .title strong {
+  margin-left: var(--spacing-sm);
+  font-size: var(--font-size-2xl);
+  font-weight: bold;
+}
+
+.result .container .competitors {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: var(--spacing-lg);
+  row-gap: var(--spacing-sm);
+}
+
+.result .container .competitors .competitor {
+  width: 100%;
+  margin-top: var(--spacing-lg);
+}
+
+.result .container .competitors .competitor .thumbnail {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.result .container .competitors .competitor .thumbnail::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url(../../images/flag.png);
+  display: inline-block;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: 55px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: var(--z-base);
+}
+
+.result .container .competitors .competitor .thumbnail img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  transition: transform var(--transition-base);
+}
+
+.result .container .competitors .competitor:hover .thumbnail img {
+  transform: scale(1.05);
+}
+
+.result .container .competitors .competitor .name {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: var(--spacing-xs);
+}
+
+.result .container .competitors .competitor .name strong {
+  font-size: 1.25rem;
+  line-height: 24px;
+  color: var(--color-primary);
+}
+
+.result .container .competitors .competitor .name span {
+  font-size: var(--font-size-base);
+  margin: var(--spacing-xs) 0;
+  color: var(--color-secondary);
+}
+
+.result .container .competitors .competitor .name b {
+  font-weight: 400;
+  font-size: var(--font-size-sm);
+  color: black;
+}

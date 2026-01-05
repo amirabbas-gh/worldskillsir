@@ -1,0 +1,100 @@
+/**
+ * Base Styles
+ * Reset and base element styles
+ */
+
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: var(--font-family-primary);
+  color: var(--color-primary);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Font Face Declarations */
+@font-face {
+  font-family: Acorn;
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/Acorn-Light.woff2) format("woff2"),
+    url(../fonts/Acorn-Light.ttf) format("ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Acorn;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Acorn-Regular.woff2) format("woff2"),
+    url(../fonts/Acorn-Regular.woff) format("woff"),
+    url(../fonts/Acorn-Regular.ttf) format("ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Acorn;
+  font-style: normal;
+  font-weight: bold;
+  src: url(../fonts/Acorn-Bold.ttf) format("ttf"),
+    url(../fonts/Acorn-Bold.woff) format("woff"),
+    url(../fonts/Acorn-Bold.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  src: url(../fonts/Montserrat-Bold.ttf) format("ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Montserrat-Regular.ttf) format("ttf");
+  font-display: swap;
+}
+
+/* Image optimization */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity var(--transition-fast);
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* Button reset */
+button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* List reset */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

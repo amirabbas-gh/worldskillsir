@@ -1,0 +1,34 @@
+{
+  "site": {
+    "title": "WorldSkills Iran",
+    "description": "WorldSkills Iran",
+    "url": "https://worldskills.ir/",
+    "ogImage": "https://worldskills.ir/src/images/2024.jpg"
+  },
+  "social": {
+    "website": {
+      "url": "https://skill.irantvto.ir",
+      "display": "skills.irantvto.ir",
+      "icon": "internet2.png"
+    },
+    "instagram": {
+      "url": "https://instagram.com/worldskillsiran",
+      "display": "@worldskillsiran",
+      "icon": "instagram.png"
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/company/worldskills-iran/",
+      "display": "worldskills-iran",
+      "icon": "linkedin.png"
+    }
+  },
+  "nationalSkills": {
+    "url": "https://skill.irantvto.ir/",
+    "title": "Join us in Iran National Skills competition"
+  },
+  "quote": {
+    "text": "I believe that the power of skills could enlighten and inspire young students for their future.",
+    "author": "— Dr DS Jang, Samsung"
+  }
+}
+

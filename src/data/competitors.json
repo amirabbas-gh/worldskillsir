@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Hassan Mohammadi Moghaddam",
+    "skill": "Cyber security",
+    "award": "Silver medal",
+    "image": "hassan.jpeg"
+  },
+  {
+    "name": "Hamidreza Hamidi",
+    "skill": "Cyber Security",
+    "award": "Silver medal",
+    "image": "hamid.jpeg"
+  },
+  {
+    "name": "Amirabbas Ghasemi",
+    "skill": "Web Technologies",
+    "award": "Medallion for excellence",
+    "image": "amirabbas.jpeg"
+  },
+  {
+    "name": "Amirreza Gholami",
+    "skill": "Mobile Applications Development",
+    "award": "Medallion for excellence",
+    "image": "amirreza.jpeg"
+  },
+  {
+    "name": "Alireza Pourchali",
+    "skill": "Cloud Computing",
+    "award": "Medallion for excellence",
+    "image": "alireza.jpeg"
+  },
+  {
+    "name": "Mehrdad Shirvani",
+    "skill": "IT Software Solutions for Business",
+    "award": "Medallion for excellence",
+    "image": "mehrdad.jpeg"
+  },
+  {
+    "name": "Seyed Armin Taheri",
+    "skill": "IT Network Systems Administration",
+    "award": "Medallion for excellence",
+    "image": "armin.jpeg"
+  },
+  {
+    "name": "Seyedarian Taheri",
+    "skill": "Graphic Design Technology",
+    "award": "Medallion for excellence",
+    "image": "arian.jpeg"
+  },
+  {
+    "name": "Mohamad hoseyni gajin",
+    "skill": "Jewellery",
+    "award": "Medallion for excellence",
+    "image": "javaher.jpeg"
+  },
+  {
+    "name": "Amirmohammad Abouei Mehrizi",
+    "skill": "Refrigeration and Air Conditioning",
+    "award": "Medallion for excellence",
+    "image": "abouei.jpeg"
+  }
+]
+

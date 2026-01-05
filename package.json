@@ -1,0 +1,26 @@
+{
+  "name": "worldskills-iran",
+  "version": "2.0.0",
+  "description": "WorldSkills Iran official website - showcasing Team Iran's achievements in WorldSkills competitions",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve . -l 3000"
+  },
+  "keywords": [
+    "worldskills",
+    "iran",
+    "skills",
+    "competition",
+    "web"
+  ],
+  "author": "Amirabbas Ghasemi",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
+

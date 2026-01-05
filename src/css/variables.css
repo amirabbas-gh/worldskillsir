@@ -1,0 +1,79 @@
+/**
+ * CSS Custom Properties (Variables)
+ * Centralized design tokens for the project
+ */
+
+:root {
+  /* Colors */
+  --color-primary: #434343;
+  --color-secondary: #636d76;
+  --color-accent: #cc9b7e;
+  --color-accent-light: #febe98;
+  --color-accent-teal: #8ae2d1;
+  --color-dark-blue: #003764;
+  --color-purple: #251f65;
+  --color-white: #fff;
+  --color-black: #000;
+
+  /* Typography */
+  --font-family-primary: 'Montserrat', sans-serif;
+  --font-family-accent: 'Acorn', sans-serif;
+  --font-family-monospace: monospace;
+
+  /* Font Sizes */
+  --font-size-xs: 10px;
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 21px;
+  --font-size-2xl: 23px;
+  --font-size-3xl: 25px;
+  --font-size-4xl: 30px;
+  --font-size-5xl: 33px;
+  --font-size-6xl: 36px;
+  --font-size-7xl: 40px;
+  --font-size-8xl: 42px;
+  --font-size-9xl: 46px;
+  --font-size-10xl: 50px;
+
+  /* Spacing */
+  --spacing-xs: 5px;
+  --spacing-sm: 10px;
+  --spacing-md: 13px;
+  --spacing-lg: 20px;
+  --spacing-xl: 30px;
+  --spacing-2xl: 40px;
+  --spacing-3xl: 60px;
+  --spacing-4xl: 70px;
+  --spacing-5xl: 100px;
+
+  /* Layout */
+  --container-max-width: 1440px;
+  --container-padding: 45px;
+  --header-logo-size: 100px;
+  --header-title-size: 50px;
+
+  /* Z-index layers */
+  --z-base: 1;
+  --z-elevated: 11;
+  --z-overlay: 111;
+  --z-modal: 1111;
+
+  /* Transitions */
+  --transition-fast: 0.2s;
+  --transition-base: 0.3s;
+  --transition-slow: 0.5s;
+
+  /* Border Radius */
+  --radius-sm: 15px;
+  --radius-md: 20px;
+  --radius-lg: 24px;
+  --radius-xl: 30px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+

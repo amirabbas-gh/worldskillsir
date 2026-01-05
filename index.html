@@ -1,250 +1,129 @@
-<!-- 
-    Designed and developed by Amirabbas Ghasemi with love in 2024
-
-    Contact ways:
-    https://amirabbas.dev
-    amirabbas08dev@gmail.com
-    https://linkedin.com/in/amirabbasghasemi
- -->
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WorldSkills Iran</title>
-    <link rel="stylesheet" href="assets/css/animation.min.css">
-    <link rel="stylesheet" href="assets/css/style.css?v3">
-    <link rel="stylesheet" href="assets/css/responsive.css?v3">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="src/css/animation.min.css">
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    
+    <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    <!-- SEO Meta Tags -->
     <link rel="canonical" href="https://worldskills.ir/" />
-    <meta property="og:image" content="https://worldskills.ir/assets/images/2024.jpg" />
+    <meta property="og:image" content="https://worldskills.ir/src/images/2024.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@worldskillsiran" />
     <meta property="og:site_name" content="WorldSkills Iran" />
     <meta property="og:description" content="WorldSkills Iran" />
     <meta name="google-site-verification" content="GMrIXi6Ra1L8jaQ9g6e-XNGjFQTLU14fBKDc4wMceaQ" />
 </head>
-
 <body>
-    <section class="header">
+    <!-- Header Section -->
+    <header class="header" role="banner">
         <div class="videoContainer">
             <div class="logo">
-                <img class="wow slideInLeft" src="assets/images/logo.png" alt="logo" />
+                <img class="wow slideInLeft" src="src/images/logo.png" alt="WorldSkills Iran Logo" />
             </div>
             <div class="title">
                 <strong class="wow slideInLeft">Skills change the world</strong>
-                <img class="wow slideInRight" id="play" src="assets/images/play.svg" />
+                <img class="wow slideInRight" id="play" src="src/images/play.svg" alt="Play video" role="button" aria-label="Play video" />
             </div>
-            <video id="purview" muted autoplay loop src="assets/videos/video.mp4"></video>
+            <video id="purview" muted autoplay loop playsinline src="src/videos/video.mp4" aria-label="Background video"></video>
         </div>
         <div class="nationalSkills">
             <h2 class="wow zoomIn">
                 Join us in <br /> Iran National Skills <br /> competition
             </h2>
-            <a href="https://skill.irantvto.ir/">
-                <button><img src="assets/images/internet.png" alt="global" />Join</button>
+            <a href="https://skill.irantvto.ir/" target="_blank" aria-label="Join Iran National Skills competition">
+                <button type="button">
+                    <img src="src/images/internet.png" alt="Global icon" />
+                    Join
+                </button>
             </a>
         </div>
-        <div class="videoPlayer">
-            <video id="video" src="assets/videos/video.mp4"></video>
-            <img id="pause" src="assets/images/pause.png" alt="pause" />
+        <div class="videoPlayer" role="dialog" aria-label="Video player" aria-hidden="true">
+            <video id="video" src="src/videos/video.mp4"></video>
+            <img id="pause" src="src/images/pause.png" alt="Pause video" role="button" aria-label="Close video player" />
         </div>
-    </section>
-    <!-- <section class="lyon2024">
-        <div class="contnet">
-            <strong>2024</strong>
-            <h2>WorldSkills Lyon 2024</h2>
-        </div>
-        <img src="assets/images/2024.jpg" />
-    </section> -->
-    <!-- <section class="lyon2024">
-        <strong><b>0</b> days remain to WorldSkills Lyon 2024</strong>
-        <div class="clockContainer">
-            <div class="expload"></div>
-            <div class="expload"></div>
-            <div class="expload"></div>
-            <div class="expload"></div>
-            <div class="expload"></div>
-            <div class="expload"></div>
-            <div class="clock">
-                <span id="hour1" expload="1">
-                </span>
-                <span id="hour2" expload="2">
-                </span>
-                <span id="dot"></span>
-                <span id="minute1" expload="3">
-                </span>
-                <span id="minute2" expload="4">
-                </span>
-                <span id="dot"></span>
-                <span id="second1" expload="5">
-                </span>
-                <span id="second2" expload="6">
-                </span>
-            </div>
-        </div>
-    </section> -->
-    <!-- <section class="ifsc">
-        <img src="./assets/images/iscf-01.png" />
-    </section> -->
-    <section class="result">
+    </header>
+
+    <!-- Results Section -->
+    <section class="result" aria-labelledby="results-title">
         <div class="container">
             <div class="title">
-                <img src="assets/images/titleIcon.svg" />
-                <strong>Team Iran WorldSkills Lyon 2024 Awards</strong>
+                <img src="src/images/titleIcon.svg" alt="" />
+                <strong id="results-title">Team Iran WorldSkills Lyon 2024 Awards</strong>
             </div>
-            <div class="competitors">
-                <div class="competitor">
-                    <div class="thumbnail">
-                        <img src="./assets/images/competitors/hassan.jpeg" alt="Hassan Mohammadi Moghaddam" />
-                    </div>
-                    <div class="name">
-                        <strong>Hassan Mohammadi Moghaddam</strong>
-                        <span>Cyber security</span>
-                        <b>Silver medal</b>
-                    </div>
-                </div>
-                <div class="competitor">
-                    <div class="thumbnail">
-                        <img src="./assets/images/competitors/hamid.jpeg" alt="Hamidreza Hamidi" />
-                    </div>
-                    <div class="name">
-                        <strong>Hamidreza Hamidi</strong>
-                        <span>Cyber Security</span>
-                        <b>Silver medal</b>
-                    </div>
-                </div>
-                <div class="competitor">
-                    <div class="thumbnail">
-                        <img src="./assets/images/competitors/amirabbas.jpeg" alt="Amirabbas Ghasemi" />
-                    </div>
-                    <div class="name">
-                        <strong>Amirabbas Ghasemi</strong>
-                        <span>Web Technologies</span>
-                        <b>Medallion for excellence</b>
-                    </div>
-                </div>
-                <div class="competitor">
-                    <div class="thumbnail">
-                        <img src="./assets/images/competitors/amirreza.jpeg" alt="Amirreza Gholami" />
-                    </div>
-                    <div class="name">
-                        <strong>Amirreza Gholami</strong>
-                        <span>Mobile Applications Development</span>
-                        <b>Medallion for excellence</b>
-                    </div>
-                </div>
-                <div class="competitor">
-                    <div class="thumbnail">
-                        <img src="./assets/images/competitors/alireza.jpeg" alt="Alireza Pourchali" />
-                    </div>
-                    <div class="name">
-                        <strong>Alireza Pourchali</strong>
-                        <span>Cloud Computing</span>
-                        <b>Medallion for excellence</b>
-                    </div>
-                </div>
-                <div class="competitor">
-                    <div class="thumbnail">
-                        <img src="./assets/images/competitors/mehrdad.jpeg" alt="Mehrdad Shirvani" />
-                    </div>
-                    <div class="name">
-                        <strong>Mehrdad Shirvani</strong>
-                        <span>IT Software Solutions for Business</span>
-                        <b>Medallion for excellence</b>
-                    </div>
-                </div>
-                <div class="competitor">
-                    <div class="thumbnail">
-                        <img src="./assets/images/competitors/armin.jpeg" alt="Seyed Armin Taheri" />
-                    </div>
-                    <div class="name">
-                        <strong>Seyed Armin Taheri</strong>
-                        <span>IT Network Systems Administration</span>
-                        <b>Medallion for excellence</b>
-                    </div>
-                </div>
-                <div class="competitor">
-                    <div class="thumbnail">
-                        <img src="./assets/images/competitors/arian.jpeg" alt="Seyedarian Taheri" />
-                    </div>
-                    <div class="name">
-                        <strong>Seyedarian Taheri</strong>
-                        <span>Graphic Design Technology</span>
-                        <b>Medallion for excellence</b>
-                    </div>
-                </div>
-                <div class="competitor">
-                    <div class="thumbnail">
-                        <img src="./assets/images/competitors/javaher.jpeg" alt="Mohamad hoseyni gajin" />
-                    </div>
-                    <div class="name">
-                        <strong>Mohamad hoseyni gajin</strong>
-                        <span>Jewellery</span>
-                        <b>Medallion for excellence</b>
-                    </div>
-                </div>
-                <div class="competitor">
-                    <div class="thumbnail">
-                        <img src="./assets/images/competitors/abouei.jpeg" alt="Amirmohammad Abouei Mehrizi" />
-                    </div>
-                    <div class="name">
-                        <strong>Amirmohammad Abouei Mehrizi</strong>
-                        <span>Refrigeration and Air Conditioning</span>
-                        <b>Medallion for excellence</b>
-                    </div>
-                </div>
+            <div class="competitors" role="list" aria-label="Competitors list">
+                <!-- Competitors will be dynamically rendered by JavaScript -->
             </div>
         </div>
     </section>
-    <section class="main">
+
+    <!-- Main Content Section -->
+    <main class="main" role="main">
         <div class="mainContainer">
-            <div class="star1"></div>
-            <div class="star2"></div>
-            <img class="wow slideInDown medal" src="assets/images/medal.png" alt="medal" />
-            <img class="wow zoomIn nice" src="assets/images/nice.png" alt="nice" />
+            <div class="star1" aria-hidden="true"></div>
+            <div class="star2" aria-hidden="true"></div>
+            <img class="wow slideInDown medal" src="src/images/medal.png" alt="Medal decoration" aria-hidden="true" />
+            <img class="wow zoomIn nice" src="src/images/nice.png" alt="Nice decoration" aria-hidden="true" />
             <div class="moments">
                 Create
                 <b>Beautiful</b>
                 <i>Moments</i>
             </div>
             <div class="images">
-                <img src="assets/images/image1.jpg" />
-                <img src="assets/images/image2.jpg" />
-                <img src="assets/images/2024.jpg" />
+                <img src="src/images/image1.jpg" alt="WorldSkills moment" loading="lazy" />
+                <img src="src/images/image2.jpg" alt="WorldSkills moment" loading="lazy" />
+                <img src="src/images/2024.jpg" alt="WorldSkills 2024" loading="lazy" />
             </div>
             <div class="challenge">
-                <img class="wow zoomIn" src="assets/images/hand.png" alt="hand" />
+                <img class="wow zoomIn" src="src/images/hand.png" alt="Hand icon" aria-hidden="true" />
                 <div class="wow slideInRight">
                     Challenging
                     <b>Yourself</b>
                 </div>
             </div>
-            <div class="onMove wow zoomIn">
-                <img src="assets/images/onMove.png" />
+            <div class="onMove wow zoomIn" aria-hidden="true">
+                <img src="src/images/onMove.png" alt="" />
             </div>
-
         </div>
-    </section>
-    <section class="footer">
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer" role="contentinfo">
         <div class="topFooter">
             Make a Better <b>World</b> with <b>Skills</b>
         </div>
         <div class="contact">
             <ul>
-                <li><a target="_blank" href="https://skill.irantvto.ir"><img
-                            src="assets/images/internet2.png" />skills.irantvto.ir</a>
+                <li>
+                    <a target="_blank" rel="noopener noreferrer" href="https://skill.irantvto.ir" aria-label="Visit skills.irantvto.ir">
+                        <img src="src/images/internet2.png" alt="Website icon" />
+                        skills.irantvto.ir
+                    </a>
                 </li>
-                <li><a target="_blank" href="https://instagram.com/worldskillsiran"><img
-                            src="assets/images/instagram.png" />@worldskillsiran</a>
+                <li>
+                    <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/worldskillsiran" aria-label="Visit Instagram">
+                        <img src="src/images/instagram.png" alt="Instagram icon" />
+                        @worldskillsiran
+                    </a>
                 </li>
-                <li><a target="_blank" href="https://www.linkedin.com/company/worldskills-iran/"><img
-                            src="assets/images/linkedin.png" />worldskills-iran</a>
+                <li>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/worldskills-iran/" aria-label="Visit LinkedIn">
+                        <img src="src/images/linkedin.png" alt="LinkedIn icon" />
+                        worldskills-iran
+                    </a>
                 </li>
-                <span class="copyRight">
+                <li class="copyRight">
                     <b>© Worldskills Iran. All rights reserved</b>
                     Designed and developed in the 47th Worldskills Competition Web Camp 2024
-                </span>
+                </li>
             </ul>
             <blockquote>
                 <p>
@@ -253,10 +132,10 @@
                 <b>— Dr DS Jang, Samsung</b>
             </blockquote>
         </div>
-    </section>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="src/js/wow.min.js"></script>
+    <script type="module" src="src/js/main.js"></script>
 </body>
-
-<script type="text/javascript" src="assets/js/wow.min.js"></script>
-<script type="text/javascript" src="assets/js/script.js"></script>
-
 </html>

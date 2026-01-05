@@ -1,0 +1,123 @@
+/**
+ * Footer Component Styles
+ */
+
+.footer {
+  width: 100%;
+  background-image: url(../../images/footer.png);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-bottom: 196px;
+}
+
+.footer::before {
+  content: "";
+  width: 70px;
+  height: 78px;
+  background-image: url(../../images/cube.png);
+  background-size: 100%;
+  background-position: 0;
+  position: absolute;
+  left: 50%;
+  top: -38px;
+  transform: translateX(-50%);
+  background-repeat: no-repeat;
+}
+
+.footer .topFooter {
+  width: 100%;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  font-weight: bold;
+  padding: var(--spacing-3xl) 0;
+  background-image: url(../../images/back.jpg);
+  background-size: 100%;
+  background-position: -20px top;
+}
+
+.footer .topFooter b {
+  font-family: var(--font-family-accent);
+}
+
+.footer .contact {
+  width: 850px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg);
+}
+
+.footer .contact blockquote {
+  width: 307px;
+  background-color: var(--color-accent-teal);
+  padding: var(--spacing-xl);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  border-radius: 0 0 var(--radius-lg) 25px;
+  background-image: url(../../images/quote.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 176%;
+  background-blend-mode: color-burn;
+}
+
+.footer .contact blockquote p {
+  font-size: var(--font-size-lg);
+  color: var(--color-dark-blue);
+  line-height: 36px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer .contact blockquote b {
+  margin-top: var(--spacing-xs);
+  color: var(--color-dark-blue);
+  font-size: var(--font-size-base);
+}
+
+.footer .contact ul li {
+  margin: 9px 0;
+}
+
+.footer .contact ul li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--color-purple);
+  font-size: var(--font-size-md);
+  transition: opacity var(--transition-fast);
+}
+
+.footer .contact ul li a:hover {
+  opacity: 0.8;
+}
+
+.footer .contact ul li a img {
+  width: 29px;
+  height: auto;
+  margin-right: var(--spacing-md);
+}
+
+.footer .copyRight {
+  width: auto;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family-accent);
+  font-size: var(--font-size-sm);
+  font-weight: bold;
+  color: rgba(37, 31, 101, 0.67);
+  width: 100%;
+  margin-top: var(--spacing-sm);
+}
+
+.footer .copyRight b {
+  font-size: 15px;
+}

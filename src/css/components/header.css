@@ -1,0 +1,169 @@
+/**
+ * Header Component Styles
+ */
+
+.header {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.header .videoContainer {
+  width: 70%;
+  position: relative;
+  display: flex;
+}
+
+.header .videoContainer video {
+  width: 100%;
+  height: auto;
+}
+
+.header .videoContainer .logo {
+  position: absolute;
+  top: 40px;
+  left: 100px;
+  display: flex;
+  align-items: center;
+  z-index: var(--z-overlay);
+}
+
+.header .videoContainer .logo img {
+  width: var(--header-logo-size);
+}
+
+.header .videoContainer .title {
+  position: absolute;
+  bottom: 60px;
+  width: 100%;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: var(--z-overlay);
+}
+
+.header .videoContainer .title strong {
+  font-size: var(--header-title-size);
+  color: var(--color-white);
+  font-family: var(--font-family-accent);
+}
+
+.header .videoContainer .title img {
+  cursor: pointer;
+  width: 50px;
+  transition: transform var(--transition-fast);
+}
+
+.header .videoContainer .title img:hover {
+  transform: scale(1.1);
+}
+
+.header .nationalSkills {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  background-image: url(../../images/headbackground.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.header .nationalSkills > img {
+  margin-left: 77px;
+  margin-bottom: 15px;
+  width: 49px;
+}
+
+.header .nationalSkills h2 {
+  margin-left: 77px;
+  color: var(--color-primary);
+  font-size: var(--font-size-5xl);
+  font-weight: normal;
+  line-height: 54px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header .nationalSkills::before {
+  content: "";
+  width: 135px;
+  height: 100%;
+  position: absolute;
+  left: -70px;
+  bottom: 0;
+  background-image: url(../../images/milad.png);
+  background-size: contain;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  z-index: var(--z-overlay);
+}
+
+.header .nationalSkills button {
+  clip-path: polygon(0 0, 86% 0, 100% 100%, 0% 100%);
+  border: none;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-accent-light);
+  margin-top: var(--spacing-lg);
+  padding: var(--spacing-md) 44px var(--spacing-md) 77px;
+  font-size: var(--font-size-xl);
+  font-weight: bold;
+  color: var(--color-primary);
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
+}
+
+.header .nationalSkills button:hover {
+  background-color: var(--color-accent);
+}
+
+.header .nationalSkills button img {
+  width: 41px;
+  height: auto;
+  margin-right: var(--spacing-md);
+}
+
+.header .videoPlayer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  z-index: var(--z-modal);
+  justify-content: center;
+  background-color: var(--color-black);
+  transition: opacity var(--transition-slow), visibility var(--transition-slow);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.header .videoPlayer.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.header .videoPlayer #video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.header .videoPlayer #pause {
+  width: 49px;
+  height: auto;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  cursor: pointer;
+  transition: transform var(--transition-fast);
+}
+
+.header .videoPlayer #pause:hover {
+  transform: scale(1.1);
+}

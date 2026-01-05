@@ -1,0 +1,16 @@
+/**
+ * Main Stylesheet
+ * Imports all CSS modules in the correct order
+ */
+
+/* 1. Variables - Design tokens */
+@import "./variables.css";
+
+/* 2. Base - Reset and base styles */
+@import "./base.css";
+
+/* 3. Components - Component-specific styles */
+@import "./components/header.css";
+@import "./components/main.css";
+@import "./components/result.css";
+@import "./components/footer.css";
