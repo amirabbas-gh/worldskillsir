@@ -2,7 +2,6 @@
  * Main Application Entry Point
  */
 import { VideoPlayer } from './modules/videoPlayer.js';
-import { ScrollAnimation } from './modules/scrollAnimation.js';
 import { WowAnimation } from './modules/wowAnimation.js';
 import { Competitors } from './modules/competitors.js';
 
@@ -19,7 +18,6 @@ class App {
       
       // Initialize modules
       new VideoPlayer();
-      new ScrollAnimation();
       new WowAnimation();
       new Competitors(competitorsData);
     } catch (error) {
